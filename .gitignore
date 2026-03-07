@@ -1,0 +1,21 @@
+TESTINGAREA
+overlay.py
+requirements.txt
+SwineStyle.spec
+.venv
+__pycache__
+Demo1_ui.py
+introform.ui
+main.spec
+APP\assets
+DeepMacro.ui
+nuitka-crash-report.xml
+
+#compiled app should not be inside the app's source code
+*.spec
+build/
+dist/
+*.exe
+
+# where the app's data is stored (created when booted up using Setup()), if I didn't remove this my testing settings would be in the source code
+APP/data

@@ -1,0 +1,52 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>save_green.png</file>
+    <file>load_blue.png</file>
+    <file>Edit.png</file>
+    <file>Save.png</file>
+    <file>chat.png</file>
+    <file>combat.png</file>
+    <file>mantras.png</file>
+    <file>miscellaneous.png</file>
+    <file>play.png</file>
+    <file>progression.png</file>
+    <file>settings.png</file>
+    <file>silentheart.png</file>
+    <file>weapons.png</file>
+    <file>diversity_2_1000dp_FFFFF0_FILL0_wght400_GRAD0_opsz48.png</file>
+    <file>priority_high_1000dp_FFFFF0_FILL0_wght400_GRAD0_opsz48.png</file>
+    <file>exercise_1000dp_FFFFF0_FILL0_wght400_GRAD0_opsz48(2).png</file>
+    <file>fitness_center_1000dp_FFFFF0_FILL0_wght400_GRAD0_opsz48.png</file>
+    <file>exercise_1000dp_FFFFF0_FILL0_wght400_GRAD0_opsz48(1).png</file>
+    <file>sms_1000dp_FFFFF0_FILL0_wght400_GRAD0_opsz48.png</file>
+    <file>fitness_center_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24(1).png</file>
+    <file>arrow_forward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>publish_24dp_705CCC_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>save_24dp_2E6F40_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>cloud_download_24dp_2E6F40_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>cloud_upload_24dp_705CCC_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>play_arrow_24dp_FFFFF0_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>save_24dp_FFFFF0_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>circle-ellipsis.png</file>
+    <file>moving_24dp_FFFFF0_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>swords_24dp_FFFFF0_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>wand-sparkles.png</file>
+    <file>bell.png</file>
+    <file>sprint_24dp_FFFFF0_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>account_tree_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>assets.qrc</file>
+    <file>build_circle_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>copy_icon.png</file>
+    <file>delete_icon.png</file>
+    <file>editName_icon.png</file>
+    <file>editWorkflow_icon.png</file>
+    <file>home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>menu_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>question_mark_24dp_FFFFF0_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>settings_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>start_icon.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>icon.png</file>
+  </qresource>
+</RCC>
