@@ -10,6 +10,7 @@ main.spec
 APP\assets
 DeepMacro.ui
 nuitka-crash-report.xml
+.vscode
 
 #compiled app should not be inside the app's source code
 *.spec
