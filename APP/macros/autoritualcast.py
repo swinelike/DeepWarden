@@ -209,8 +209,35 @@ POS_2560_1080_100 = [ # the placements of the symbols
      {"left": 1418, "top": 257, "width": 50, "height": 50}] # column 4
 ]
 
-positions100 = [POS_1128_634_100, POS_1600_900_100, POS_1600_1200_100, POS_1920_1080_100, POS_1920_1200_100, POS_2560_1080_100, POS_2560_1440_100, POS_3440_1440_100]
-positions125 = [POS_1128_634_125, POS_1600_900_125, POS_1600_1200_125, POS_1920_1080_125, POS_1920_1200_125, POS_2560_1080_125, POS_2560_1440_125, POS_3440_1440_125]
+POS_1366_768_100 = [
+    [{"left": 556, "top": 167, "width": 80, "height": 80},
+     {"left": 562, "top": 215, "width": 80, "height": 80}],
+
+    [{"left": 640, "top": 164, "width": 80, "height": 80},
+     {"left": 644, "top": 218, "width": 80, "height": 80}],
+
+    [{"left": 720, "top": 164, "width": 80, "height": 80},
+     {"left": 722, "top": 212, "width": 80, "height": 80}],
+
+    [{"left": 802, "top": 160, "width": 80, "height": 80},
+     {"left": 801, "top": 217, "width": 80, "height": 80}]
+]
+
+POS_1366_768_125 = [
+    [{"left": 421, "top": 157, "width": 80, "height": 80},
+     {"left": 429, "top": 194, "width": 80, "height": 80}],
+
+    [{"left": 504, "top": 156, "width": 80, "height": 80},
+     {"left": 506, "top": 196, "width": 80, "height": 80}],
+
+    [{"left": 583, "top": 157, "width": 80, "height": 80},
+     {"left": 586, "top": 194, "width": 80, "height": 80}],
+
+    [{"left": 670, "top": 158, "width": 80, "height": 80},
+     {"left": 670, "top": 196, "width": 80, "height": 80}]
+]
+positions100 = [POS_1128_634_100, POS_1366_768_100, POS_1600_900_100, POS_1600_1200_100, POS_1920_1080_100, POS_1920_1200_100, POS_2560_1080_100, POS_2560_1440_100, POS_3440_1440_100]
+positions125 = [POS_1128_634_125, POS_1366_768_125, POS_1600_900_125, POS_1600_1200_125, POS_1920_1080_125, POS_1920_1200_125, POS_2560_1080_125, POS_2560_1440_125, POS_3440_1440_125]
 
 
 
