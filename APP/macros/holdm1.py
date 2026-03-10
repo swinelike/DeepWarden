@@ -17,9 +17,9 @@ class M1Listener:
             return "right"
         return "left"
 
-    def simulate_click(self, key):
+    def simulate_click(self, keyToPress):
         #x, y = win32api.GetCursorPos()
-        press_and_release(key)
+        press_and_release(keyToPress)
         #if self.get_primary_button() == "right":
             #win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTDOWN, x, y, 0, 0)
         #else:
@@ -29,7 +29,7 @@ class M1Listener:
         state = win32api.GetAsyncKeyState(vk_code)
         return (state & 0x8000) != 0
 
-    def macro_thread(self, key):
+    def macro_thread(self, keyToPress):
         hold_start = 0
         is_auto_clicking = False
         
@@ -54,7 +54,7 @@ class M1Listener:
                     if hold_duration >= 0.2:
                         if not is_auto_clicking:
                             is_auto_clicking = True
-                        self.simulate_click(key)
+                        self.simulate_click(keyToPress)
                         time.sleep(0.04)
                 
                 # Button released
@@ -68,15 +68,15 @@ class M1Listener:
                 print("\nStopping...")
                 break
 
-    def run(self, key):
+    def run(self, keyToPress):
         print('checking')
-        if len(key) != 1:
-            key = '`'
+        if len(keyToPress) != 1:
+            keyToPress = '`'
         
         if not self.thread or not self.thread.is_alive():
             print('starting ' + (__file__).split("\\")[-1])
             self.running = True
-            self.thread = threading.Thread(target=self.macro_thread, args=key)
+            self.thread = threading.Thread(target=self.macro_thread, args=keyToPress)
             self.thread.daemon = True
             self.thread.start()
 
