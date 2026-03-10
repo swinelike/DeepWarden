@@ -4089,18 +4089,18 @@ class Ui_MainWindow(object):
                 toast.setCloseButtonIconColor(QColor("#ff073a"))
                 toast.setBorderRadius(5)
                 toast.show()
-               
-
-
                              
         def runToggle():
                 def addMacro(name:str, toggle, listener_class, **run_kwargs):
                         if toggle._is_checked != 2:
                                return
-                        for value in run_kwargs.values():
-                               if len(value) == 0:
-                                      show_warning(f'Error in macro {name}', 'This macro is missing one or more parameters and was not enabled')
-                                      return
+                        print(run_kwargs)
+                        exceptions = ['ping_ms', 'keyToPress', 'avatar_url', 'username']
+                        for field, value in run_kwargs.items():
+                               if type(value) is str:
+                                      if len(value) == 0 and field not in exceptions:
+                                        show_warning(f'Error in macro {name}', 'This macro is missing one or more parameters and was not enabled')
+                                        return
                         listener_instance = listener_class()
                         setattr(self, name, listener_instance)
                         self.threads.append(listener_instance)
@@ -4117,7 +4117,7 @@ class Ui_MainWindow(object):
                         with open(settingsPath) as f:
                                 currentSettings = json.load(f)
                         addMacro('Air Dash M1 Movestack', self.AirDashToggle, threadedkeyb.AirListener)
-                        addMacro('Faster Hold M1', self.HoldM1Toggle, holdm1.M1Listener, key=self.HoldM1Key.toPlainText())
+                        addMacro('Faster Hold M1', self.HoldM1Toggle, holdm1.M1Listener, keyToPress=self.HoldM1Key.toPlainText())
                         if self.BellMovestackToggle._is_checked == 2:
                                 if self.MovestackChoice.currentIndex() == 1:     
                                         addMacro('Bell Stack Parry', self.BellMovestackToggle, bellStackParry.BellStackParryListener) # Either a logic error or i need to fix some jank on this one
