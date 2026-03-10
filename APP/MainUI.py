@@ -3977,7 +3977,41 @@ class Ui_MainWindow(object):
                                                       
 
 
+        def show_warning(title='', text=''):
+                # configurations
+                toast = Toast(self.centralwidget)
+                toast.setStayOnTop(True)
+                toast.setDuration(10000)  # 3 seconds
+                toast.setTitle(title)
+                toast.setText(text)
+                toast.setResetDurationOnHover(False)
+                toast.setMaximumOnScreen(10)
+                toast.setFixedWidth(400)
+                
+                
+                # style preset
+                toast.applyPreset(ToastPreset.WARNING)
 
+                # background color
+                toast.setBackgroundColor(QColor("#333333"))  # Use QColor instead of string
+                
+                # stylesheet
+                toast.setStyleSheet("""
+                QWidget {
+                        background-color: #333333;  /* Dark gray background */
+                        border: 0px solid #555555;  /* Light gray border */
+                        border-radius: 5px;         /* Rounded corners */
+                        color: #ffffff
+                }
+                
+                """)
+
+                # Show the toast
+                toast.setTitleColor(QColor("#D3D3D3"))
+                toast.setTextColor(QColor("#D3D3D3"))
+                toast.setCloseButtonIconColor(QColor("#ff073a"))
+                toast.setBorderRadius(5)
+                toast.show()
                
 
 
@@ -3986,6 +4020,10 @@ class Ui_MainWindow(object):
                 def addMacro(name:str, toggle, listener_class, **run_kwargs):
                         if toggle._is_checked != 2:
                                return
+                        for value in run_kwargs.values():
+                               if len(value) == 0:
+                                      show_warning(f'Error in macro {name}', 'This macro is missing one or more parameters and was not enabled')
+                                      return
                         listener_instance = listener_class()
                         setattr(self, name, listener_instance)
                         self.threads.append(listener_instance)
@@ -4084,6 +4122,7 @@ class Ui_MainWindow(object):
                 toast.setDuration(3000)  # 3 seconds
                 toast.setTitle(title)
                 toast.setText(text)
+                toast.setResetDurationOnHover(False)
                 
                 # style preset
                 toast.applyPreset(ToastPreset.SUCCESS)
