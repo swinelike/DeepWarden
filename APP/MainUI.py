@@ -155,6 +155,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_10.setObjectName(u"plainTextEdit_10")
         self.plainTextEdit_10.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_10.setStyleSheet(u"")
+        self.plainTextEdit_10.setMaximumBlockCount(1)
 
         self.gridLayout_6.addWidget(self.plainTextEdit_10, 2, 1, 1, 1)
 
@@ -182,6 +183,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_3.setMinimumSize(QSize(0, 30))
         self.plainTextEdit_3.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_3.setStyleSheet(u"")
+        self.plainTextEdit_3.setMaximumBlockCount(1)
 
         self.gridLayout_6.addWidget(self.plainTextEdit_3, 13, 1, 1, 1)
 
@@ -195,6 +197,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_2.setMinimumSize(QSize(0, 30))
         self.plainTextEdit_2.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_2.setStyleSheet(u"")
+        self.plainTextEdit_2.setMaximumBlockCount(1)
 
         self.gridLayout_6.addWidget(self.plainTextEdit_2, 10, 1, 1, 1)
 
@@ -208,6 +211,7 @@ class Ui_MainWindow(object):
         self.AutoMantraVariantsKeysArea.setMinimumSize(QSize(0, 30))
         self.AutoMantraVariantsKeysArea.setMaximumSize(QSize(16777215, 30))
         self.AutoMantraVariantsKeysArea.setStyleSheet(u"")
+        self.AutoMantraVariantsKeysArea.setMaximumBlockCount(1)
 
         self.gridLayout_6.addWidget(self.AutoMantraVariantsKeysArea, 7, 1, 1, 1)
 
@@ -288,7 +292,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 647, 1038))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, -349, 657, 1038))
         self.gridLayout_19 = QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_19.setObjectName(u"gridLayout_19")
         self.MotifHotkeyLabel = QLabel(self.scrollAreaWidgetContents_3)
@@ -305,6 +309,7 @@ class Ui_MainWindow(object):
         self.HoldM1Key.setObjectName(u"HoldM1Key")
         self.HoldM1Key.setMinimumSize(QSize(0, 30))
         self.HoldM1Key.setMaximumSize(QSize(16777215, 30))
+        self.HoldM1Key.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.HoldM1Key, 4, 1, 1, 1)
 
@@ -335,6 +340,7 @@ class Ui_MainWindow(object):
         self.uppercutAssassinateHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
         self.uppercutAssassinateHotkey.setObjectName(u"uppercutAssassinateHotkey")
         self.uppercutAssassinateHotkey.setMaximumSize(QSize(16777215, 30))
+        self.uppercutAssassinateHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.uppercutAssassinateHotkey, 27, 1, 1, 1)
 
@@ -353,6 +359,7 @@ class Ui_MainWindow(object):
         self.rollParryHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
         self.rollParryHotkey.setObjectName(u"rollParryHotkey")
         self.rollParryHotkey.setMaximumSize(QSize(16777215, 30))
+        self.rollParryHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.rollParryHotkey, 24, 1, 1, 1)
 
@@ -411,6 +418,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_7.setMinimumSize(QSize(0, 30))
         self.plainTextEdit_7.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_7.setStyleSheet(u"")
+        self.plainTextEdit_7.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.plainTextEdit_7, 9, 1, 1, 1)
 
@@ -423,6 +431,7 @@ class Ui_MainWindow(object):
         self.RollM1Hotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
         self.RollM1Hotkey.setObjectName(u"RollM1Hotkey")
         self.RollM1Hotkey.setMaximumSize(QSize(16777215, 30))
+        self.RollM1Hotkey.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.RollM1Hotkey, 19, 1, 1, 1)
 
@@ -458,6 +467,7 @@ class Ui_MainWindow(object):
         self.MotifToolbarNumberArea.setMinimumSize(QSize(0, 30))
         self.MotifToolbarNumberArea.setMaximumSize(QSize(16777215, 30))
         self.MotifToolbarNumberArea.setStyleSheet(u"")
+        self.MotifToolbarNumberArea.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.MotifToolbarNumberArea, 8, 1, 1, 1)
 
@@ -500,6 +510,7 @@ class Ui_MainWindow(object):
         self.MotifHotkeyArea.setMinimumSize(QSize(0, 30))
         self.MotifHotkeyArea.setMaximumSize(QSize(16777215, 30))
         self.MotifHotkeyArea.setStyleSheet(u"")
+        self.MotifHotkeyArea.setMaximumBlockCount(1)
 
         self.gridLayout_19.addWidget(self.MotifHotkeyArea, 7, 1, 1, 1)
 
@@ -532,7 +543,7 @@ class Ui_MainWindow(object):
         self.scrollArea_5.setWidgetResizable(True)
         self.scrollAreaWidgetContents_6 = QWidget()
         self.scrollAreaWidgetContents_6.setObjectName(u"scrollAreaWidgetContents_6")
-        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 647, 1348))
+        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, -659, 657, 1348))
         self.gridLayout_21 = QGridLayout(self.scrollAreaWidgetContents_6)
         self.gridLayout_21.setObjectName(u"gridLayout_21")
         self.label_117 = QLabel(self.scrollAreaWidgetContents_6)
@@ -577,18 +588,21 @@ class Ui_MainWindow(object):
         self.AutoBuySubmitCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoBuySubmitCoords.setObjectName(u"AutoBuySubmitCoords")
         self.AutoBuySubmitCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuySubmitCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoBuySubmitCoords, 18, 1, 1, 1)
 
         self.AutoDropNotesHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoDropNotesHotkey.setObjectName(u"AutoDropNotesHotkey")
         self.AutoDropNotesHotkey.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoDropNotesHotkey, 22, 1, 1, 1)
 
         self.AutoSellBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoSellBarEndCoords.setObjectName(u"AutoSellBarEndCoords")
         self.AutoSellBarEndCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellBarEndCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoSellBarEndCoords, 38, 1, 1, 1)
 
@@ -613,6 +627,7 @@ class Ui_MainWindow(object):
         self.AutoSellRepetitions = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoSellRepetitions.setObjectName(u"AutoSellRepetitions")
         self.AutoSellRepetitions.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellRepetitions.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoSellRepetitions, 35, 1, 1, 1)
 
@@ -621,6 +636,7 @@ class Ui_MainWindow(object):
         self.WillpowerTrainingHotkey.setMinimumSize(QSize(0, 30))
         self.WillpowerTrainingHotkey.setMaximumSize(QSize(16777215, 30))
         self.WillpowerTrainingHotkey.setStyleSheet(u"")
+        self.WillpowerTrainingHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.WillpowerTrainingHotkey, 10, 1, 1, 1)
 
@@ -629,6 +645,7 @@ class Ui_MainWindow(object):
         self.AnkleWeightsTrainingHotkey.setMinimumSize(QSize(0, 30))
         self.AnkleWeightsTrainingHotkey.setMaximumSize(QSize(16777215, 30))
         self.AnkleWeightsTrainingHotkey.setStyleSheet(u"")
+        self.AnkleWeightsTrainingHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AnkleWeightsTrainingHotkey, 4, 1, 1, 1)
 
@@ -655,12 +672,14 @@ class Ui_MainWindow(object):
         self.AutoSellHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoSellHotkey.setObjectName(u"AutoSellHotkey")
         self.AutoSellHotkey.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoSellHotkey, 34, 1, 1, 1)
 
         self.AutoBuyBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoBuyBarStartCoords.setObjectName(u"AutoBuyBarStartCoords")
         self.AutoBuyBarStartCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuyBarStartCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoBuyBarStartCoords, 14, 1, 1, 1)
 
@@ -672,6 +691,7 @@ class Ui_MainWindow(object):
         self.AutoSellBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoSellBarStartCoords.setObjectName(u"AutoSellBarStartCoords")
         self.AutoSellBarStartCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellBarStartCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoSellBarStartCoords, 36, 1, 1, 1)
 
@@ -693,12 +713,14 @@ class Ui_MainWindow(object):
         self.AutoBuyBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoBuyBarEndCoords.setObjectName(u"AutoBuyBarEndCoords")
         self.AutoBuyBarEndCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuyBarEndCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoBuyBarEndCoords, 16, 1, 1, 1)
 
         self.AutoDropNotesSubmitCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoDropNotesSubmitCoords.setObjectName(u"AutoDropNotesSubmitCoords")
         self.AutoDropNotesSubmitCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesSubmitCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoDropNotesSubmitCoords, 30, 1, 1, 1)
 
@@ -720,6 +742,7 @@ class Ui_MainWindow(object):
         self.AutoDropNotesRepetitions = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoDropNotesRepetitions.setObjectName(u"AutoDropNotesRepetitions")
         self.AutoDropNotesRepetitions.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesRepetitions.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoDropNotesRepetitions, 23, 1, 1, 1)
 
@@ -744,6 +767,7 @@ class Ui_MainWindow(object):
         self.autoDropNotesNoteCoords.setObjectName(u"autoDropNotesNoteCoords")
         self.autoDropNotesNoteCoords.setMinimumSize(QSize(0, 30))
         self.autoDropNotesNoteCoords.setMaximumSize(QSize(16777215, 30))
+        self.autoDropNotesNoteCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.autoDropNotesNoteCoords, 24, 1, 1, 1)
 
@@ -755,6 +779,7 @@ class Ui_MainWindow(object):
         self.AutoDropNotesBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoDropNotesBarStartCoords.setObjectName(u"AutoDropNotesBarStartCoords")
         self.AutoDropNotesBarStartCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesBarStartCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoDropNotesBarStartCoords, 26, 1, 1, 1)
 
@@ -776,6 +801,7 @@ class Ui_MainWindow(object):
         self.AutoBuyHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoBuyHotkey.setObjectName(u"AutoBuyHotkey")
         self.AutoBuyHotkey.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuyHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoBuyHotkey, 13, 1, 1, 1)
 
@@ -792,6 +818,7 @@ class Ui_MainWindow(object):
         self.AutoDropNotesBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoDropNotesBarEndCoords.setObjectName(u"AutoDropNotesBarEndCoords")
         self.AutoDropNotesBarEndCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesBarEndCoords.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.AutoDropNotesBarEndCoords, 28, 1, 1, 1)
 
@@ -805,6 +832,7 @@ class Ui_MainWindow(object):
         self.BoulderTrainingHotkey.setMinimumSize(QSize(0, 30))
         self.BoulderTrainingHotkey.setMaximumSize(QSize(16777215, 30))
         self.BoulderTrainingHotkey.setStyleSheet(u"")
+        self.BoulderTrainingHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_21.addWidget(self.BoulderTrainingHotkey, 7, 1, 1, 1)
 
@@ -874,7 +902,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 639, 705))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, -34, 639, 705))
         self.scrollAreaWidgetContents_2.setMaximumSize(QSize(16777215, 16777212))
         self.gridLayout_17 = QGridLayout(self.scrollAreaWidgetContents_2)
         self.gridLayout_17.setObjectName(u"gridLayout_17")
@@ -887,6 +915,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_14.setObjectName(u"plainTextEdit_14")
         self.plainTextEdit_14.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_14.setStyleSheet(u"")
+        self.plainTextEdit_14.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.plainTextEdit_14, 6, 1, 1, 1)
 
@@ -895,6 +924,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit.setMinimumSize(QSize(0, 30))
         self.plainTextEdit.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit.setStyleSheet(u"")
+        self.plainTextEdit.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.plainTextEdit, 3, 1, 1, 1)
 
@@ -902,6 +932,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_12.setObjectName(u"plainTextEdit_12")
         self.plainTextEdit_12.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_12.setStyleSheet(u"")
+        self.plainTextEdit_12.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.plainTextEdit_12, 4, 1, 1, 1)
 
@@ -919,6 +950,7 @@ class Ui_MainWindow(object):
         self.AutoEatFoodCoords.setObjectName(u"AutoEatFoodCoords")
         self.AutoEatFoodCoords.setMinimumSize(QSize(0, 30))
         self.AutoEatFoodCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoEatFoodCoords.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.AutoEatFoodCoords, 18, 1, 1, 1)
 
@@ -926,6 +958,7 @@ class Ui_MainWindow(object):
         self.monitorToScreenshot.setObjectName(u"monitorToScreenshot")
         self.monitorToScreenshot.setMinimumSize(QSize(0, 30))
         self.monitorToScreenshot.setMaximumSize(QSize(16777215, 30))
+        self.monitorToScreenshot.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.monitorToScreenshot, 9, 1, 1, 1)
 
@@ -943,6 +976,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_13.setObjectName(u"plainTextEdit_13")
         self.plainTextEdit_13.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_13.setStyleSheet(u"")
+        self.plainTextEdit_13.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.plainTextEdit_13, 5, 1, 1, 1)
 
@@ -956,6 +990,7 @@ class Ui_MainWindow(object):
         self.AutoEatFoodName.setObjectName(u"AutoEatFoodName")
         self.AutoEatFoodName.setMinimumSize(QSize(0, 30))
         self.AutoEatFoodName.setMaximumSize(QSize(16777215, 30))
+        self.AutoEatFoodName.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.AutoEatFoodName, 15, 1, 1, 1)
 
@@ -1009,6 +1044,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_15.setMinimumSize(QSize(0, 30))
         self.plainTextEdit_15.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_15.setStyleSheet(u"")
+        self.plainTextEdit_15.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.plainTextEdit_15, 2, 1, 1, 1)
 
@@ -1045,6 +1081,7 @@ class Ui_MainWindow(object):
         self.AutoEatHotkey.setObjectName(u"AutoEatHotkey")
         self.AutoEatHotkey.setMinimumSize(QSize(0, 30))
         self.AutoEatHotkey.setMaximumSize(QSize(16777215, 30))
+        self.AutoEatHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.AutoEatHotkey, 14, 1, 1, 1)
 
@@ -1057,6 +1094,7 @@ class Ui_MainWindow(object):
         self.AutoEatBoxCoords.setObjectName(u"AutoEatBoxCoords")
         self.AutoEatBoxCoords.setMinimumSize(QSize(0, 30))
         self.AutoEatBoxCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoEatBoxCoords.setMaximumBlockCount(1)
 
         self.gridLayout_17.addWidget(self.AutoEatBoxCoords, 16, 1, 1, 1)
 
@@ -2138,6 +2176,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_17.setObjectName(u"plainTextEdit_17")
         self.plainTextEdit_17.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_17.setStyleSheet(u"")
+        self.plainTextEdit_17.setMaximumBlockCount(1)
 
         self.gridLayout_14.addWidget(self.plainTextEdit_17, 4, 1, 1, 1)
 
@@ -2208,6 +2247,7 @@ class Ui_MainWindow(object):
         self.TrashTalkHotkey.setObjectName(u"TrashTalkHotkey")
         self.TrashTalkHotkey.setMinimumSize(QSize(0, 30))
         self.TrashTalkHotkey.setMaximumSize(QSize(16777215, 30))
+        self.TrashTalkHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_16.addWidget(self.TrashTalkHotkey, 9, 1, 1, 1)
 
@@ -2232,6 +2272,7 @@ class Ui_MainWindow(object):
         self.plainTextEdit_6.setObjectName(u"plainTextEdit_6")
         self.plainTextEdit_6.setMaximumSize(QSize(16777215, 30))
         self.plainTextEdit_6.setStyleSheet(u"")
+        self.plainTextEdit_6.setMaximumBlockCount(1)
 
         self.gridLayout_16.addWidget(self.plainTextEdit_6, 3, 1, 1, 1)
 
@@ -2241,7 +2282,7 @@ class Ui_MainWindow(object):
         self.scrollArea_4.setWidgetResizable(True)
         self.scrollAreaWidgetContents_5 = QWidget()
         self.scrollAreaWidgetContents_5.setObjectName(u"scrollAreaWidgetContents_5")
-        self.scrollAreaWidgetContents_5.setGeometry(QRect(0, 0, 629, 1372))
+        self.scrollAreaWidgetContents_5.setGeometry(QRect(0, -937, 639, 1372))
         self.gridLayout_20 = QGridLayout(self.scrollAreaWidgetContents_5)
         self.gridLayout_20.setObjectName(u"gridLayout_20")
         self.MessageHotkeyLabel = QLabel(self.scrollAreaWidgetContents_5)
@@ -2265,6 +2306,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_1.setObjectName(u"MessageHotkeyArea_1")
         self.MessageHotkeyArea_1.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_1.setStyleSheet(u"")
+        self.MessageHotkeyArea_1.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_1, 2, 1, 1, 1)
 
@@ -2277,6 +2319,7 @@ class Ui_MainWindow(object):
         self.MessageArea_1.setObjectName(u"MessageArea_1")
         self.MessageArea_1.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_1.setStyleSheet(u"")
+        self.MessageArea_1.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_1, 3, 1, 1, 1)
 
@@ -2301,6 +2344,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_2.setObjectName(u"MessageHotkeyArea_2")
         self.MessageHotkeyArea_2.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_2.setStyleSheet(u"")
+        self.MessageHotkeyArea_2.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_2, 6, 1, 1, 1)
 
@@ -2313,6 +2357,7 @@ class Ui_MainWindow(object):
         self.MessageArea_2.setObjectName(u"MessageArea_2")
         self.MessageArea_2.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_2.setStyleSheet(u"")
+        self.MessageArea_2.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_2, 7, 1, 1, 1)
 
@@ -2337,6 +2382,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_3.setObjectName(u"MessageHotkeyArea_3")
         self.MessageHotkeyArea_3.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_3.setStyleSheet(u"")
+        self.MessageHotkeyArea_3.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_3, 10, 1, 1, 1)
 
@@ -2349,6 +2395,7 @@ class Ui_MainWindow(object):
         self.MessageArea_3.setObjectName(u"MessageArea_3")
         self.MessageArea_3.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_3.setStyleSheet(u"")
+        self.MessageArea_3.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_3, 11, 1, 1, 1)
 
@@ -2373,6 +2420,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_4.setObjectName(u"MessageHotkeyArea_4")
         self.MessageHotkeyArea_4.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_4.setStyleSheet(u"")
+        self.MessageHotkeyArea_4.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_4, 14, 1, 1, 1)
 
@@ -2385,6 +2433,7 @@ class Ui_MainWindow(object):
         self.MessageArea_4.setObjectName(u"MessageArea_4")
         self.MessageArea_4.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_4.setStyleSheet(u"")
+        self.MessageArea_4.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_4, 15, 1, 1, 1)
 
@@ -2409,6 +2458,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_5.setObjectName(u"MessageHotkeyArea_5")
         self.MessageHotkeyArea_5.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_5.setStyleSheet(u"")
+        self.MessageHotkeyArea_5.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_5, 18, 1, 1, 1)
 
@@ -2421,6 +2471,7 @@ class Ui_MainWindow(object):
         self.MessageArea_5.setObjectName(u"MessageArea_5")
         self.MessageArea_5.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_5.setStyleSheet(u"")
+        self.MessageArea_5.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_5, 19, 1, 1, 1)
 
@@ -2445,6 +2496,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_6.setObjectName(u"MessageHotkeyArea_6")
         self.MessageHotkeyArea_6.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_6.setStyleSheet(u"")
+        self.MessageHotkeyArea_6.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_6, 22, 1, 1, 1)
 
@@ -2457,6 +2509,7 @@ class Ui_MainWindow(object):
         self.MessageArea_6.setObjectName(u"MessageArea_6")
         self.MessageArea_6.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_6.setStyleSheet(u"")
+        self.MessageArea_6.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_6, 23, 1, 1, 1)
 
@@ -2481,6 +2534,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_7.setObjectName(u"MessageHotkeyArea_7")
         self.MessageHotkeyArea_7.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_7.setStyleSheet(u"")
+        self.MessageHotkeyArea_7.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_7, 26, 1, 1, 1)
 
@@ -2493,6 +2547,7 @@ class Ui_MainWindow(object):
         self.MessageArea_7.setObjectName(u"MessageArea_7")
         self.MessageArea_7.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_7.setStyleSheet(u"")
+        self.MessageArea_7.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_7, 27, 1, 1, 1)
 
@@ -2517,6 +2572,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_8.setObjectName(u"MessageHotkeyArea_8")
         self.MessageHotkeyArea_8.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_8.setStyleSheet(u"")
+        self.MessageHotkeyArea_8.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_8, 30, 1, 1, 1)
 
@@ -2529,6 +2585,7 @@ class Ui_MainWindow(object):
         self.MessageArea_8.setObjectName(u"MessageArea_8")
         self.MessageArea_8.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_8.setStyleSheet(u"")
+        self.MessageArea_8.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_8, 31, 1, 1, 1)
 
@@ -2553,6 +2610,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_9.setObjectName(u"MessageHotkeyArea_9")
         self.MessageHotkeyArea_9.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_9.setStyleSheet(u"")
+        self.MessageHotkeyArea_9.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_9, 34, 1, 1, 1)
 
@@ -2565,6 +2623,7 @@ class Ui_MainWindow(object):
         self.MessageArea_9.setObjectName(u"MessageArea_9")
         self.MessageArea_9.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_9.setStyleSheet(u"")
+        self.MessageArea_9.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_9, 35, 1, 1, 1)
 
@@ -2589,6 +2648,7 @@ class Ui_MainWindow(object):
         self.MessageHotkeyArea_10.setObjectName(u"MessageHotkeyArea_10")
         self.MessageHotkeyArea_10.setMaximumSize(QSize(16777215, 30))
         self.MessageHotkeyArea_10.setStyleSheet(u"")
+        self.MessageHotkeyArea_10.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageHotkeyArea_10, 38, 1, 1, 1)
 
@@ -2601,6 +2661,7 @@ class Ui_MainWindow(object):
         self.MessageArea_10.setObjectName(u"MessageArea_10")
         self.MessageArea_10.setMaximumSize(QSize(16777215, 30))
         self.MessageArea_10.setStyleSheet(u"")
+        self.MessageArea_10.setMaximumBlockCount(1)
 
         self.gridLayout_20.addWidget(self.MessageArea_10, 39, 1, 1, 1)
 
@@ -2617,6 +2678,7 @@ class Ui_MainWindow(object):
         self.GoldenTongueHotkeyArea.setObjectName(u"GoldenTongueHotkeyArea")
         self.GoldenTongueHotkeyArea.setMaximumSize(QSize(16777215, 30))
         self.GoldenTongueHotkeyArea.setStyleSheet(u"")
+        self.GoldenTongueHotkeyArea.setMaximumBlockCount(1)
 
         self.gridLayout_16.addWidget(self.GoldenTongueHotkeyArea, 2, 1, 1, 1)
 
@@ -2645,6 +2707,7 @@ class Ui_MainWindow(object):
         self.autoLogHotkey.setObjectName(u"autoLogHotkey")
         self.autoLogHotkey.setMinimumSize(QSize(30, 30))
         self.autoLogHotkey.setMaximumSize(QSize(1677215, 30))
+        self.autoLogHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_18.addWidget(self.autoLogHotkey, 5, 1, 1, 2)
 
@@ -2683,6 +2746,7 @@ class Ui_MainWindow(object):
         self.autoLogCoords = QPlainTextEdit(self.combatPage)
         self.autoLogCoords.setObjectName(u"autoLogCoords")
         self.autoLogCoords.setMaximumSize(QSize(16777215, 30))
+        self.autoLogCoords.setMaximumBlockCount(1)
 
         self.gridLayout_18.addWidget(self.autoLogCoords, 6, 1, 1, 2)
 
@@ -2691,6 +2755,7 @@ class Ui_MainWindow(object):
         self.MbAllHotkeyArea.setMinimumSize(QSize(0, 30))
         self.MbAllHotkeyArea.setMaximumSize(QSize(16777215, 30))
         self.MbAllHotkeyArea.setStyleSheet(u"")
+        self.MbAllHotkeyArea.setMaximumBlockCount(1)
 
         self.gridLayout_18.addWidget(self.MbAllHotkeyArea, 2, 1, 1, 2)
 
@@ -2731,6 +2796,7 @@ class Ui_MainWindow(object):
         self.autoTacetKeybind.setMinimumSize(QSize(0, 30))
         self.autoTacetKeybind.setMaximumSize(QSize(16777215, 30))
         self.autoTacetKeybind.setStyleSheet(u"")
+        self.autoTacetKeybind.setMaximumBlockCount(1)
 
         self.gridLayout_18.addWidget(self.autoTacetKeybind, 11, 1, 1, 1)
 
@@ -2758,6 +2824,7 @@ class Ui_MainWindow(object):
         self.AnkleCutterHotkey.setMinimumSize(QSize(0, 30))
         self.AnkleCutterHotkey.setMaximumSize(QSize(16777215, 30))
         self.AnkleCutterHotkey.setStyleSheet(u"")
+        self.AnkleCutterHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.AnkleCutterHotkey, 15, 1, 1, 1)
 
@@ -2791,12 +2858,14 @@ class Ui_MainWindow(object):
         self.FlowStateKeybind = QPlainTextEdit(self.silentheartPage)
         self.FlowStateKeybind.setObjectName(u"FlowStateKeybind")
         self.FlowStateKeybind.setMaximumSize(QSize(16777215, 30))
+        self.FlowStateKeybind.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.FlowStateKeybind, 3, 1, 1, 1)
 
         self.FlowStateKeybind_3 = QPlainTextEdit(self.silentheartPage)
         self.FlowStateKeybind_3.setObjectName(u"FlowStateKeybind_3")
         self.FlowStateKeybind_3.setMaximumSize(QSize(16777215, 30))
+        self.FlowStateKeybind_3.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.FlowStateKeybind_3, 12, 1, 1, 1)
 
@@ -2827,6 +2896,7 @@ class Ui_MainWindow(object):
         self.RelentlessHuntHotkey.setMinimumSize(QSize(0, 30))
         self.RelentlessHuntHotkey.setMaximumSize(QSize(16777215, 30))
         self.RelentlessHuntHotkey.setStyleSheet(u"")
+        self.RelentlessHuntHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.RelentlessHuntHotkey, 2, 1, 1, 1)
 
@@ -2835,6 +2905,7 @@ class Ui_MainWindow(object):
         self.MayhemHotkey.setMinimumSize(QSize(0, 30))
         self.MayhemHotkey.setMaximumSize(QSize(16777215, 30))
         self.MayhemHotkey.setStyleSheet(u"")
+        self.MayhemHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.MayhemHotkey, 6, 1, 1, 1)
 
@@ -2848,6 +2919,7 @@ class Ui_MainWindow(object):
         self.FlowStateKeybind_2 = QPlainTextEdit(self.silentheartPage)
         self.FlowStateKeybind_2.setObjectName(u"FlowStateKeybind_2")
         self.FlowStateKeybind_2.setMaximumSize(QSize(16777215, 30))
+        self.FlowStateKeybind_2.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.FlowStateKeybind_2, 7, 1, 1, 1)
 
@@ -2861,6 +2933,7 @@ class Ui_MainWindow(object):
         self.RisingStarHotkey.setMinimumSize(QSize(0, 30))
         self.RisingStarHotkey.setMaximumSize(QSize(16777215, 30))
         self.RisingStarHotkey.setStyleSheet(u"")
+        self.RisingStarHotkey.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.RisingStarHotkey, 11, 1, 1, 1)
 
@@ -2884,6 +2957,7 @@ class Ui_MainWindow(object):
         self.FlowStateKeybind_4 = QPlainTextEdit(self.silentheartPage)
         self.FlowStateKeybind_4.setObjectName(u"FlowStateKeybind_4")
         self.FlowStateKeybind_4.setMaximumSize(QSize(16777215, 30))
+        self.FlowStateKeybind_4.setMaximumBlockCount(1)
 
         self.gridLayout_22.addWidget(self.FlowStateKeybind_4, 16, 1, 1, 1)
 
@@ -3596,6 +3670,9 @@ class Ui_MainWindow(object):
         self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"pigyboi", None))
         self.label_73.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">or join </span><a href=\"https://discord.com/invite/Wg5ccj6vE6\"><span style=\" font-size:10pt; text-decoration: underline; color:#99ebff;\">this discord server</span></a></p></body></html>", None))
     # retranslateUi
+
+
+
 
 
 
