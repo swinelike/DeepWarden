@@ -64,19 +64,3 @@ class flashMapListener:
             if self.thread.is_alive():
                 print("Warning: Thread did not stop cleanly")
 
-    def main(self):
-        controller = flashMapListener()
-        controller.run()
-        
-        try:
-            # Keep the main thread alive
-            while controller.running:
-                # Wait for any key event
-                keyboard.wait()
-                print('Key event detected')
-        except KeyboardInterrupt:
-            controller.stop()
-
-if __name__ == "__main__":
-    flash_map = flashMapListener()
-    flash_map.main()

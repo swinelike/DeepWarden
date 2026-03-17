@@ -62,21 +62,3 @@ class AirListener:
             self.mouse_listener.stop()
         if self.keyboard_listener:
             self.keyboard_listener.stop()
-
-def main(self):
-    listener = AirListener()
-    # Create and start the listener thread
-    listener_thread = Thread(target=listener.run, name="KeyMouseListenerThread")
-    listener_thread.daemon = True  # Make thread daemon so it exits when main program exits
-    listener_thread.start()
-    
-    try:
-        # Keep main thread alive until KeyboardInterrupt
-        while self.running:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        listener.stop()
-        listener_thread.join()  # Wait for listener thread to finish
-
-if __name__ == "__main__":
-    main()

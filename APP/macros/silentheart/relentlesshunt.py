@@ -82,18 +82,3 @@ class relentlessHuntListener:
             self.thread.join(timeout=1.0)  # Wait up to 1 second for the thread to stop
             if self.thread.is_alive():
                 print("Warning: Thread did not stop cleanly")
-
-    def main(self):
-        controller = relentlessHuntListener()
-        controller.run()  # Changed from start() to run()
-        
-        try:
-            # Keep the main thread alive
-            while controller.running:  # Changed from self.running to controller.running
-                keyboard.wait(1)
-        except KeyboardInterrupt:
-            controller.stop()
-
-if __name__ == "__main__":
-    auto_feint = relentlessHuntListener()
-    auto_feint.main()

@@ -17,13 +17,8 @@ class M1Listener:
             return "right"
         return "left"
 
-    def simulate_click(self, keyToPress):
-        #x, y = win32api.GetCursorPos()
+    def press_button(self, keyToPress):
         press_and_release(keyToPress)
-        #if self.get_primary_button() == "right":
-            #win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTDOWN, x, y, 0, 0)
-        #else:
-            #win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, x, y, 0, 0)
 
     def check_button_state(self, vk_code):
         state = win32api.GetAsyncKeyState(vk_code)
@@ -54,7 +49,7 @@ class M1Listener:
                     if hold_duration >= 0.2:
                         if not is_auto_clicking:
                             is_auto_clicking = True
-                        self.simulate_click(keyToPress)
+                        self.press_button(keyToPress)
                         time.sleep(0.04)
                 
                 # Button released
@@ -87,18 +82,3 @@ class M1Listener:
             self.thread.join(timeout=1.0)  # Wait up to 1 second for the thread to stop
             if self.thread.is_alive():
                 print("Warning: Thread did not stop cleanly")
-
-def main():
-    controller = M1Listener()
-    controller.start()
-    
-    try:
-        # Keep the main thread alive
-        while True:
-            time.sleep(0.1)
-    except KeyboardInterrupt:
-        print("\nExiting program...")
-        controller.stop()
-
-if __name__ == "__main__":
-    main()
