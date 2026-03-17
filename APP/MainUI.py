@@ -4235,8 +4235,6 @@ class Ui_MainWindow(object):
                                show_toast(title='Macro activated!')
                         elif self.RunToggle._is_checked == 0:
                                show_toast(title='Macro disabled.')
-                else:
-                       print('notif would have been played if not disabled')
         self.RunToggle.toggled.connect(notifs)
         def toggling():
                 def on_key(event):
@@ -4249,7 +4247,7 @@ class Ui_MainWindow(object):
                 
                 # Keep the thread alive
                 while True:
-                        sleep(0.1)  # Prevent high CPU usage
+                        sleep(0.1)  
 
         def startStopToggling():
                 global t1  # Make thread accessible globally
@@ -4579,4 +4577,3 @@ class Ui_MainWindow(object):
         self.Preset8EditName.clicked.connect(lambda:NameEditor(8))
         self.Preset9EditName.clicked.connect(lambda:NameEditor(9))
         self.Preset10EditName.clicked.connect(lambda:NameEditor(10))
-        # Starting the thread (inside some class or context)
