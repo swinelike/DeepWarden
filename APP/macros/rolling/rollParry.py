@@ -14,11 +14,7 @@ class rollParryListener:
         def rollParry(self):
             keyboard.press_and_release('f')
             keyboard.press_and_release('q')
-        if keybind != 'f':
-            self.hotkey = keyboard.on_press_key(keybind, rollParry)
-        else:
-            self.hotkey = keyboard.on_press_key(keybind, rollParry, suppress=True)
-
+        self.hotkey = keyboard.on_press_key(keybind, rollParry)
 
         
 
