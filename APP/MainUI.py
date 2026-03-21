@@ -16,6 +16,8 @@ from PySide6.QtWidgets import (QComboBox, QFrame, QGridLayout, QHBoxLayout,
     QPushButton, QScrollArea, QSizePolicy, QSpacerItem,
     QStackedWidget, QWidget)
 
+        # start QtDesigner UI code
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
@@ -292,7 +294,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, -349, 657, 1038))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 657, 1038))
         self.gridLayout_19 = QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_19.setObjectName(u"gridLayout_19")
         self.MotifHotkeyLabel = QLabel(self.scrollAreaWidgetContents_3)
@@ -543,7 +545,7 @@ class Ui_MainWindow(object):
         self.scrollArea_5.setWidgetResizable(True)
         self.scrollAreaWidgetContents_6 = QWidget()
         self.scrollAreaWidgetContents_6.setObjectName(u"scrollAreaWidgetContents_6")
-        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, -659, 657, 1348))
+        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 657, 1348))
         self.gridLayout_21 = QGridLayout(self.scrollAreaWidgetContents_6)
         self.gridLayout_21.setObjectName(u"gridLayout_21")
         self.label_117 = QLabel(self.scrollAreaWidgetContents_6)
@@ -902,7 +904,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, -34, 639, 705))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 639, 705))
         self.scrollAreaWidgetContents_2.setMaximumSize(QSize(16777215, 16777212))
         self.gridLayout_17 = QGridLayout(self.scrollAreaWidgetContents_2)
         self.gridLayout_17.setObjectName(u"gridLayout_17")
@@ -2282,7 +2284,7 @@ class Ui_MainWindow(object):
         self.scrollArea_4.setWidgetResizable(True)
         self.scrollAreaWidgetContents_5 = QWidget()
         self.scrollAreaWidgetContents_5.setObjectName(u"scrollAreaWidgetContents_5")
-        self.scrollAreaWidgetContents_5.setGeometry(QRect(0, -937, 639, 1372))
+        self.scrollAreaWidgetContents_5.setGeometry(QRect(0, 0, 639, 1372))
         self.gridLayout_20 = QGridLayout(self.scrollAreaWidgetContents_5)
         self.gridLayout_20.setObjectName(u"gridLayout_20")
         self.MessageHotkeyLabel = QLabel(self.scrollAreaWidgetContents_5)
@@ -3338,7 +3340,7 @@ class Ui_MainWindow(object):
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Mantra Roll Tech</span></p></body></html>", None))
         self.label_44.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Screen Scale</span></p></body></html>", None))
         self.screenResolution.setItemText(0, QCoreApplication.translate("MainWindow", u"1128 x 634", None))
-        self.screenResolution.setItemText(1, QCoreApplication.translate("MainWindow", u"1366 x 1768", None))
+        self.screenResolution.setItemText(1, QCoreApplication.translate("MainWindow", u"1366 x 768", None))
         self.screenResolution.setItemText(2, QCoreApplication.translate("MainWindow", u"1600x900", None))
         self.screenResolution.setItemText(3, QCoreApplication.translate("MainWindow", u"1600x1200", None))
         self.screenResolution.setItemText(4, QCoreApplication.translate("MainWindow", u"1920 x 1080", None))
@@ -3670,47 +3672,7 @@ class Ui_MainWindow(object):
         self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"pigyboi", None))
         self.label_73.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">or join </span><a href=\"https://discord.com/invite/Wg5ccj6vE6\"><span style=\" font-size:10pt; text-decoration: underline; color:#99ebff;\">this discord server</span></a></p></body></html>", None))
     # retranslateUi
-
-
-
-
-
-
-
-
-
-               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        # end QtDesigner UI code
 
         print('importing macros')
         from macros.rolling import rollCrit, rollM1, rollParry
