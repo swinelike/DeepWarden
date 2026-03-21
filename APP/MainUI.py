@@ -4179,14 +4179,15 @@ class Ui_MainWindow(object):
 
                 else:
                         print('start')
-                        try:
-                                for thread in self.threads:
+                        for thread in self.threads:
+                                try:
                                         thread.stop()
                                         print('stopped ' + thread.__class__.__name__)
-                                self.threads = []  # Clear thread list
-                                print('RAN')
-                        except Exception as e:
-                                print(f'Error stopping {thread}: {e}')
+                                except Exception as e:
+                                        print(f'Error stopping {thread}: {e}')
+                        self.threads = []  # Clear thread list
+                        print('RAN')
+
                         
 
                         
