@@ -18,6 +18,29 @@ from PySide6.QtWidgets import (QComboBox, QFrame, QGridLayout, QHBoxLayout,
 
         # start QtDesigner UI code
 
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'DeepMacroZTbqhU.ui'
+##
+## Created by: Qt User Interface Compiler version 6.10.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QGridLayout,
+    QHBoxLayout, QLabel, QLineEdit, QMainWindow,
+    QPlainTextEdit, QPushButton, QScrollArea, QSizePolicy,
+    QSpacerItem, QStackedWidget, QWidget)
+import assets_rc
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
@@ -294,175 +317,43 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 657, 1038))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 657, 954))
         self.gridLayout_19 = QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_19.setObjectName(u"gridLayout_19")
-        self.MotifHotkeyLabel = QLabel(self.scrollAreaWidgetContents_3)
-        self.MotifHotkeyLabel.setObjectName(u"MotifHotkeyLabel")
+        self.label_84 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_84.setObjectName(u"label_84")
 
-        self.gridLayout_19.addWidget(self.MotifHotkeyLabel, 7, 0, 1, 1)
-
-        self.label_83 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_83.setObjectName(u"label_83")
-
-        self.gridLayout_19.addWidget(self.label_83, 19, 0, 1, 1)
-
-        self.HoldM1Key = QPlainTextEdit(self.scrollAreaWidgetContents_3)
-        self.HoldM1Key.setObjectName(u"HoldM1Key")
-        self.HoldM1Key.setMinimumSize(QSize(0, 30))
-        self.HoldM1Key.setMaximumSize(QSize(16777215, 30))
-        self.HoldM1Key.setMaximumBlockCount(1)
-
-        self.gridLayout_19.addWidget(self.HoldM1Key, 4, 1, 1, 1)
-
-        self.label_115 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_115.setObjectName(u"label_115")
-
-        self.gridLayout_19.addWidget(self.label_115, 27, 0, 1, 1)
-
-        self.label_86 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_86.setObjectName(u"label_86")
-
-        self.gridLayout_19.addWidget(self.label_86, 22, 0, 1, 1)
-
-        self.label_11 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_11.setObjectName(u"label_11")
-        self.label_11.setFont(font)
-        self.label_11.setStyleSheet(u"color:grey;")
-        self.label_11.setWordWrap(True)
-
-        self.gridLayout_19.addWidget(self.label_11, 1, 0, 1, 2)
-
-        self.label_141 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_141.setObjectName(u"label_141")
-        self.label_141.setStyleSheet(u"color:grey;")
-
-        self.gridLayout_19.addWidget(self.label_141, 26, 0, 1, 2)
-
-        self.uppercutAssassinateHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
-        self.uppercutAssassinateHotkey.setObjectName(u"uppercutAssassinateHotkey")
-        self.uppercutAssassinateHotkey.setMaximumSize(QSize(16777215, 30))
-        self.uppercutAssassinateHotkey.setMaximumBlockCount(1)
-
-        self.gridLayout_19.addWidget(self.uppercutAssassinateHotkey, 27, 1, 1, 1)
-
-        self.label_85 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_85.setObjectName(u"label_85")
-        self.label_85.setStyleSheet(u"color:grey;")
-
-        self.gridLayout_19.addWidget(self.label_85, 21, 0, 1, 2)
-
-        self.label_82 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_82.setObjectName(u"label_82")
-        self.label_82.setStyleSheet(u"color:grey;")
-
-        self.gridLayout_19.addWidget(self.label_82, 18, 0, 1, 2)
-
-        self.rollParryHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
-        self.rollParryHotkey.setObjectName(u"rollParryHotkey")
-        self.rollParryHotkey.setMaximumSize(QSize(16777215, 30))
-        self.rollParryHotkey.setMaximumBlockCount(1)
-
-        self.gridLayout_19.addWidget(self.rollParryHotkey, 24, 1, 1, 1)
-
-        self.label_22 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_22.setObjectName(u"label_22")
-
-        self.gridLayout_19.addWidget(self.label_22, 4, 0, 1, 1)
-
-        self.HoldM1Label = QLabel(self.scrollAreaWidgetContents_3)
-        self.HoldM1Label.setObjectName(u"HoldM1Label")
-
-        self.gridLayout_19.addWidget(self.HoldM1Label, 2, 0, 1, 1)
-
-        self.label_18 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_18.setObjectName(u"label_18")
-
-        self.gridLayout_19.addWidget(self.label_18, 15, 0, 1, 1)
-
-        self.MotifToolbarNumberLabel = QLabel(self.scrollAreaWidgetContents_3)
-        self.MotifToolbarNumberLabel.setObjectName(u"MotifToolbarNumberLabel")
-
-        self.gridLayout_19.addWidget(self.MotifToolbarNumberLabel, 8, 0, 1, 1)
-
-        self.uppercutAssassinateLabel = QLabel(self.scrollAreaWidgetContents_3)
-        self.uppercutAssassinateLabel.setObjectName(u"uppercutAssassinateLabel")
-
-        self.gridLayout_19.addWidget(self.uppercutAssassinateLabel, 25, 0, 1, 1)
-
-        self.label_2 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_2.setObjectName(u"label_2")
-        self.label_2.setFont(font)
-        self.label_2.setStyleSheet(u"color:grey")
-        self.label_2.setWordWrap(True)
-
-        self.gridLayout_19.addWidget(self.label_2, 3, 0, 1, 2)
-
-        self.label_89 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_89.setObjectName(u"label_89")
-
-        self.gridLayout_19.addWidget(self.label_89, 14, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.label_84, 18, 0, 1, 1)
 
         self.label_36 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_36.setObjectName(u"label_36")
         self.label_36.setFont(font)
         self.label_36.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_19.addWidget(self.label_36, 13, 0, 1, 2)
+        self.gridLayout_19.addWidget(self.label_36, 11, 0, 1, 2)
 
-        self.label_23 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_23.setObjectName(u"label_23")
+        self.label_12 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_12.setObjectName(u"label_12")
+        self.label_12.setFont(font)
+        self.label_12.setStyleSheet(u"color:grey;")
+        self.label_12.setWordWrap(True)
 
-        self.gridLayout_19.addWidget(self.label_23, 10, 0, 1, 1)
-
-        self.plainTextEdit_7 = QPlainTextEdit(self.scrollAreaWidgetContents_3)
-        self.plainTextEdit_7.setObjectName(u"plainTextEdit_7")
-        self.plainTextEdit_7.setMinimumSize(QSize(0, 30))
-        self.plainTextEdit_7.setMaximumSize(QSize(16777215, 30))
-        self.plainTextEdit_7.setStyleSheet(u"")
-        self.plainTextEdit_7.setMaximumBlockCount(1)
-
-        self.gridLayout_19.addWidget(self.plainTextEdit_7, 9, 1, 1, 1)
-
-        self.label_19 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_19.setObjectName(u"label_19")
-        self.label_19.setStyleSheet(u"color:grey;")
-
-        self.gridLayout_19.addWidget(self.label_19, 16, 0, 1, 1)
-
-        self.RollM1Hotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
-        self.RollM1Hotkey.setObjectName(u"RollM1Hotkey")
-        self.RollM1Hotkey.setMaximumSize(QSize(16777215, 30))
-        self.RollM1Hotkey.setMaximumBlockCount(1)
-
-        self.gridLayout_19.addWidget(self.RollM1Hotkey, 19, 1, 1, 1)
-
-        self.label_81 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_81.setObjectName(u"label_81")
-
-        self.gridLayout_19.addWidget(self.label_81, 17, 0, 1, 1)
-
-        self.label_35 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_35.setObjectName(u"label_35")
-
-        self.gridLayout_19.addWidget(self.label_35, 12, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.label_12, 4, 0, 1, 2)
 
         self.label_88 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_88.setObjectName(u"label_88")
 
-        self.gridLayout_19.addWidget(self.label_88, 24, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.label_88, 22, 0, 1, 1)
 
-        self.label_84 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_84.setObjectName(u"label_84")
+        self.label_18 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_18.setObjectName(u"label_18")
 
-        self.gridLayout_19.addWidget(self.label_84, 20, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.label_18, 13, 0, 1, 1)
 
-        self.label_24 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_24.setObjectName(u"label_24")
-        self.label_24.setFont(font)
-        self.label_24.setStyleSheet(u"color:grey;")
+        self.label_81 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_81.setObjectName(u"label_81")
 
-        self.gridLayout_19.addWidget(self.label_24, 11, 0, 1, 2)
+        self.gridLayout_19.addWidget(self.label_81, 15, 0, 1, 1)
 
         self.MotifToolbarNumberArea = QPlainTextEdit(self.scrollAreaWidgetContents_3)
         self.MotifToolbarNumberArea.setObjectName(u"MotifToolbarNumberArea")
@@ -471,41 +362,109 @@ class Ui_MainWindow(object):
         self.MotifToolbarNumberArea.setStyleSheet(u"")
         self.MotifToolbarNumberArea.setMaximumBlockCount(1)
 
-        self.gridLayout_19.addWidget(self.MotifToolbarNumberArea, 8, 1, 1, 1)
-
-        self.label_12 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_12.setObjectName(u"label_12")
-        self.label_12.setFont(font)
-        self.label_12.setStyleSheet(u"color:grey;")
-        self.label_12.setWordWrap(True)
-
-        self.gridLayout_19.addWidget(self.label_12, 6, 0, 1, 2)
-
-        self.AerialAirDashLabel = QLabel(self.scrollAreaWidgetContents_3)
-        self.AerialAirDashLabel.setObjectName(u"AerialAirDashLabel")
-
-        self.gridLayout_19.addWidget(self.AerialAirDashLabel, 0, 0, 1, 1)
-
-        self.label_16 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_16.setObjectName(u"label_16")
-
-        self.gridLayout_19.addWidget(self.label_16, 9, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.MotifToolbarNumberArea, 6, 1, 1, 1)
 
         self.MotifSwapLabel = QLabel(self.scrollAreaWidgetContents_3)
         self.MotifSwapLabel.setObjectName(u"MotifSwapLabel")
 
-        self.gridLayout_19.addWidget(self.MotifSwapLabel, 5, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.MotifSwapLabel, 3, 0, 1, 1)
 
-        self.label_87 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_87.setObjectName(u"label_87")
-        self.label_87.setStyleSheet(u"color:grey;")
+        self.plainTextEdit_7 = QPlainTextEdit(self.scrollAreaWidgetContents_3)
+        self.plainTextEdit_7.setObjectName(u"plainTextEdit_7")
+        self.plainTextEdit_7.setMinimumSize(QSize(0, 30))
+        self.plainTextEdit_7.setMaximumSize(QSize(16777215, 30))
+        self.plainTextEdit_7.setStyleSheet(u"")
+        self.plainTextEdit_7.setMaximumBlockCount(1)
 
-        self.gridLayout_19.addWidget(self.label_87, 23, 0, 1, 2)
+        self.gridLayout_19.addWidget(self.plainTextEdit_7, 7, 1, 1, 1)
 
-        self.label_140 = QLabel(self.scrollAreaWidgetContents_3)
-        self.label_140.setObjectName(u"label_140")
+        self.MotifHotkeyLabel = QLabel(self.scrollAreaWidgetContents_3)
+        self.MotifHotkeyLabel.setObjectName(u"MotifHotkeyLabel")
 
-        self.gridLayout_19.addWidget(self.label_140, 28, 0, 1, 1)
+        self.gridLayout_19.addWidget(self.MotifHotkeyLabel, 5, 0, 1, 1)
+
+        self.MotifToolbarNumberLabel = QLabel(self.scrollAreaWidgetContents_3)
+        self.MotifToolbarNumberLabel.setObjectName(u"MotifToolbarNumberLabel")
+
+        self.gridLayout_19.addWidget(self.MotifToolbarNumberLabel, 6, 0, 1, 1)
+
+        self.HoldM1Key = QPlainTextEdit(self.scrollAreaWidgetContents_3)
+        self.HoldM1Key.setObjectName(u"HoldM1Key")
+        self.HoldM1Key.setMinimumSize(QSize(0, 30))
+        self.HoldM1Key.setMaximumSize(QSize(16777215, 30))
+        self.HoldM1Key.setMaximumBlockCount(1)
+
+        self.gridLayout_19.addWidget(self.HoldM1Key, 2, 1, 1, 1)
+
+        self.rollParryHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
+        self.rollParryHotkey.setObjectName(u"rollParryHotkey")
+        self.rollParryHotkey.setMaximumSize(QSize(16777215, 30))
+        self.rollParryHotkey.setMaximumBlockCount(1)
+
+        self.gridLayout_19.addWidget(self.rollParryHotkey, 22, 1, 1, 1)
+
+        self.RollM1Hotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
+        self.RollM1Hotkey.setObjectName(u"RollM1Hotkey")
+        self.RollM1Hotkey.setMaximumSize(QSize(16777215, 30))
+        self.RollM1Hotkey.setMaximumBlockCount(1)
+
+        self.gridLayout_19.addWidget(self.RollM1Hotkey, 17, 1, 1, 1)
+
+        self.label_115 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_115.setObjectName(u"label_115")
+
+        self.gridLayout_19.addWidget(self.label_115, 25, 0, 1, 1)
+
+        self.label_2 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet(u"color:grey")
+        self.label_2.setWordWrap(True)
+
+        self.gridLayout_19.addWidget(self.label_2, 1, 0, 1, 2)
+
+        self.label_19 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_19.setObjectName(u"label_19")
+        self.label_19.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_19.addWidget(self.label_19, 14, 0, 1, 1)
+
+        self.label_86 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_86.setObjectName(u"label_86")
+
+        self.gridLayout_19.addWidget(self.label_86, 20, 0, 1, 1)
+
+        self.label_141 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_141.setObjectName(u"label_141")
+        self.label_141.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_19.addWidget(self.label_141, 24, 0, 1, 2)
+
+        self.label_22 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_22.setObjectName(u"label_22")
+
+        self.gridLayout_19.addWidget(self.label_22, 2, 0, 1, 1)
+
+        self.label_23 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_23.setObjectName(u"label_23")
+
+        self.gridLayout_19.addWidget(self.label_23, 8, 0, 1, 1)
+
+        self.HoldM1Label = QLabel(self.scrollAreaWidgetContents_3)
+        self.HoldM1Label.setObjectName(u"HoldM1Label")
+
+        self.gridLayout_19.addWidget(self.HoldM1Label, 0, 0, 1, 1)
+
+        self.uppercutAssassinateLabel = QLabel(self.scrollAreaWidgetContents_3)
+        self.uppercutAssassinateLabel.setObjectName(u"uppercutAssassinateLabel")
+
+        self.gridLayout_19.addWidget(self.uppercutAssassinateLabel, 23, 0, 1, 1)
+
+        self.label_82 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_82.setObjectName(u"label_82")
+        self.label_82.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_19.addWidget(self.label_82, 16, 0, 1, 2)
 
         self.MotifHotkeyArea = QPlainTextEdit(self.scrollAreaWidgetContents_3)
         self.MotifHotkeyArea.setObjectName(u"MotifHotkeyArea")
@@ -514,13 +473,64 @@ class Ui_MainWindow(object):
         self.MotifHotkeyArea.setStyleSheet(u"")
         self.MotifHotkeyArea.setMaximumBlockCount(1)
 
-        self.gridLayout_19.addWidget(self.MotifHotkeyArea, 7, 1, 1, 1)
+        self.gridLayout_19.addWidget(self.MotifHotkeyArea, 5, 1, 1, 1)
 
         self.label_142 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_142.setObjectName(u"label_142")
         self.label_142.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_19.addWidget(self.label_142, 29, 0, 1, 2)
+        self.gridLayout_19.addWidget(self.label_142, 27, 0, 1, 2)
+
+        self.label_89 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_89.setObjectName(u"label_89")
+
+        self.gridLayout_19.addWidget(self.label_89, 12, 0, 1, 1)
+
+        self.label_85 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_85.setObjectName(u"label_85")
+        self.label_85.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_19.addWidget(self.label_85, 19, 0, 1, 2)
+
+        self.uppercutAssassinateHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_3)
+        self.uppercutAssassinateHotkey.setObjectName(u"uppercutAssassinateHotkey")
+        self.uppercutAssassinateHotkey.setMaximumSize(QSize(16777215, 30))
+        self.uppercutAssassinateHotkey.setMaximumBlockCount(1)
+
+        self.gridLayout_19.addWidget(self.uppercutAssassinateHotkey, 25, 1, 1, 1)
+
+        self.label_24 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_24.setObjectName(u"label_24")
+        self.label_24.setFont(font)
+        self.label_24.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_19.addWidget(self.label_24, 9, 0, 1, 2)
+
+        self.label_16 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_16.setObjectName(u"label_16")
+
+        self.gridLayout_19.addWidget(self.label_16, 7, 0, 1, 1)
+
+        self.label_35 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_35.setObjectName(u"label_35")
+
+        self.gridLayout_19.addWidget(self.label_35, 10, 0, 1, 1)
+
+        self.label_87 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_87.setObjectName(u"label_87")
+        self.label_87.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_19.addWidget(self.label_87, 21, 0, 1, 2)
+
+        self.label_140 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_140.setObjectName(u"label_140")
+
+        self.gridLayout_19.addWidget(self.label_140, 26, 0, 1, 1)
+
+        self.label_83 = QLabel(self.scrollAreaWidgetContents_3)
+        self.label_83.setObjectName(u"label_83")
+
+        self.gridLayout_19.addWidget(self.label_83, 17, 0, 1, 1)
 
         self.scrollArea_3.setWidget(self.scrollAreaWidgetContents_3)
 
@@ -545,7 +555,7 @@ class Ui_MainWindow(object):
         self.scrollArea_5.setWidgetResizable(True)
         self.scrollAreaWidgetContents_6 = QWidget()
         self.scrollAreaWidgetContents_6.setObjectName(u"scrollAreaWidgetContents_6")
-        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 657, 1348))
+        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 562, 1364))
         self.gridLayout_21 = QGridLayout(self.scrollAreaWidgetContents_6)
         self.gridLayout_21.setObjectName(u"gridLayout_21")
         self.label_117 = QLabel(self.scrollAreaWidgetContents_6)
@@ -904,7 +914,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 639, 705))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 495, 705))
         self.scrollAreaWidgetContents_2.setMaximumSize(QSize(16777215, 16777212))
         self.gridLayout_17 = QGridLayout(self.scrollAreaWidgetContents_2)
         self.gridLayout_17.setObjectName(u"gridLayout_17")
@@ -3354,43 +3364,41 @@ class Ui_MainWindow(object):
         self.screenScale.setItemText(1, QCoreApplication.translate("MainWindow", u"125%", None))
 
         self.screenScale.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Your computer screen's scale (%)", None))
-        self.MotifHotkeyLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.label_83.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.HoldM1Key.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The key you want to be spammed when m1 is held", None))
-        self.label_115.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.label_86.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Roll Parry</span></p></body></html>", None))
-        self.label_11.setText(QCoreApplication.translate("MainWindow", u"Does an air dash / roll in the middle of your aerial attack. Does not activate when you do not jump shortly before", None))
-        self.label_141.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Automatically uppercuts, says mb all, and then assassinates a person when you press a key</span></p></body></html>", None))
-        self.uppercutAssassinateHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to uppercut assassinate", None))
-        self.label_85.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Presses Q when you press R</span></p></body></html>", None))
-        self.label_82.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Roll M1s for you when you press a key</span></p></body></html>", None))
-        self.rollParryHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to roll parry", None))
-        self.label_22.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:16pt;\">Key</span></p></body></html>", None))
-        self.HoldM1Label.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Faster Hold M1</span></p></body></html>", None))
-        self.label_18.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Feint</span></p></body></html>", None))
-        self.MotifToolbarNumberLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Motif Toolbar Number</span></p></body></html>", None))
-        self.uppercutAssassinateLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Uppercut Assassinate</span></p></body></html>", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Automatically spams any key when M1 is held (default `). The key MUST be binded to basic attack (you can have two keybinds at a time)", None))
-        self.label_89.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Roll Uppercut</span></p></body></html>", None))
-        self.label_36.setText(QCoreApplication.translate("MainWindow", u"Same as auto uppercut but doesn't trigger when you're running", None))
-        self.label_23.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Uppercut</span></p></body></html>", None))
-        self.plainTextEdit_7.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The toolbar number of the weapon", None))
-        self.label_19.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Feints for you when you press F</span></p></body></html>", None))
-        self.RollM1Hotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to roll m1", None))
-        self.label_81.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Roll M1</span></p></body></html>", None))
-        self.label_35.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Dynamic Uppercuts</span></p></body></html>", None))
-        self.label_88.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
         self.label_84.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Roll Crit</span></p></body></html>", None))
-        self.label_24.setText(QCoreApplication.translate("MainWindow", u"Uppercuts as soon as you press ctrl", None))
-        self.MotifToolbarNumberArea.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The toolbar number of the motif", None))
+        self.label_36.setText(QCoreApplication.translate("MainWindow", u"Same as auto uppercut but doesn't trigger when you're running", None))
         self.label_12.setText(QCoreApplication.translate("MainWindow", u"Quickly swaps your weapon's motif (the critical attack of your weapon) for you.", None))
-        self.AerialAirDashLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Aerial M1 Dash</span></p></body></html>", None))
-        self.label_16.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Weapon Toolbar Number</span></p></body></html>", None))
+        self.label_88.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.label_18.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Feint</span></p></body></html>", None))
+        self.label_81.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Roll M1</span></p></body></html>", None))
+        self.MotifToolbarNumberArea.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The toolbar number of the motif", None))
         self.MotifSwapLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Motif Swap</span></p></body></html>", None))
-        self.label_87.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Presses Q when you press a key (F will cause you to always roll parry)</span></p></body></html>", None))
-        self.label_140.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Roll Cancel</span></p></body></html>", None))
+        self.plainTextEdit_7.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The toolbar number of the weapon", None))
+        self.MotifHotkeyLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.MotifToolbarNumberLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Motif Toolbar Number</span></p></body></html>", None))
+        self.HoldM1Key.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The key you want to be spammed when m1 is held", None))
+        self.rollParryHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to roll parry", None))
+        self.RollM1Hotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to roll m1", None))
+        self.label_115.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Automatically spams any key when M1 is held (default `). The key MUST be binded to basic attack (you can have two keybinds at a time)", None))
+        self.label_19.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Feints for you when you press F</span></p></body></html>", None))
+        self.label_86.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Roll Parry</span></p></body></html>", None))
+        self.label_141.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Automatically uppercuts, says mb all, and then assassinates a person when you press a key</span></p></body></html>", None))
+        self.label_22.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:16pt;\">Key</span></p></body></html>", None))
+        self.label_23.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Uppercut</span></p></body></html>", None))
+        self.HoldM1Label.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Faster Hold M1</span></p></body></html>", None))
+        self.uppercutAssassinateLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Uppercut Assassinate</span></p></body></html>", None))
+        self.label_82.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Roll M1s for you when you press a key</span></p></body></html>", None))
         self.MotifHotkeyArea.setPlaceholderText(QCoreApplication.translate("MainWindow", u"The key you want to press to swap motifs", None))
         self.label_142.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Right clicks when you press Q (may conflict with other macros)</span></p></body></html>", None))
+        self.label_89.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Roll Uppercut</span></p></body></html>", None))
+        self.label_85.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Presses Q when you press R</span></p></body></html>", None))
+        self.uppercutAssassinateHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to uppercut assassinate", None))
+        self.label_24.setText(QCoreApplication.translate("MainWindow", u"Uppercuts as soon as you press ctrl", None))
+        self.label_16.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Weapon Toolbar Number</span></p></body></html>", None))
+        self.label_35.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Dynamic Uppercuts</span></p></body></html>", None))
+        self.label_87.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Presses Q when you press a key (F will cause you to always roll parry)</span></p></body></html>", None))
+        self.label_140.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Roll Cancel</span></p></body></html>", None))
+        self.label_83.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
         self.label_117.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar Start Coordinates</span></p></body></html>", None))
         self.label_27.setText(QCoreApplication.translate("MainWindow", u"Make sure the Ankle Weights tool is equipped before starting", None))
         self.label_28.setText(QCoreApplication.translate("MainWindow", u"Make sure the Boulder tool is held out before starting and you are near a campfire", None))
@@ -3671,7 +3679,7 @@ class Ui_MainWindow(object):
         self.label_143.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">For support, DM me:</span></p></body></html>", None))
         self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"pigyboi", None))
         self.label_73.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">or join </span><a href=\"https://discord.com/invite/Wg5ccj6vE6\"><span style=\" font-size:10pt; text-decoration: underline; color:#99ebff;\">this discord server</span></a></p></body></html>", None))
-    # retranslateUi
+
         # end QtDesigner UI code
 
         print('importing macros')
@@ -3756,30 +3764,28 @@ class Ui_MainWindow(object):
 
         #! WEAPONS
         #toggles
-        self.AirDashToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.AirDashToggle, 0,1,1,2)
         self.HoldM1Toggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.HoldM1Toggle, 2,1,1,2)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.HoldM1Toggle, 0,1,1,2)
         self.MotifSwapToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.MotifSwapToggle, 5,1,1,2)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.MotifSwapToggle, 3,1,1,2)
         self.uppercutToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.uppercutToggle, 10,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.uppercutToggle, 8,1,1,1)
         self.uppercutDynamicToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.uppercutDynamicToggle, 12,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.uppercutDynamicToggle, 10,1,1,1)
         self.rollUppercutToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollUppercutToggle, 14,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollUppercutToggle, 12,1,1,1)
         self.autoFeintToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.autoFeintToggle, 15,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.autoFeintToggle, 13,1,1,1)
         self.rollM1Toggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollM1Toggle, 17,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollM1Toggle, 15,1,1,1)
         self.rollCritToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollCritToggle, 20,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollCritToggle, 18,1,1,1)
         self.rollParryToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollParryToggle, 22,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.rollParryToggle, 20,1,1,1)
         self.uppercutAssassinateToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.uppercutAssassinateToggle, 25,1,1,1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.uppercutAssassinateToggle, 23,1,1,1)
         self.AutoRollCancelToggle = CustomToggle(self.weaponsPage)
-        self.scrollAreaWidgetContents_3.layout().addWidget(self.AutoRollCancelToggle, 28, 1, 1, 1)
+        self.scrollAreaWidgetContents_3.layout().addWidget(self.AutoRollCancelToggle, 26, 1, 1, 1)
 
 
 
@@ -3894,7 +3900,6 @@ class Ui_MainWindow(object):
                 self.mantraTechSlidetoggle,
                 self.RitualCastToggle,
 
-                self.AirDashToggle,
                 self.HoldM1Toggle,
                 self.MotifSwapToggle,
                 self.uppercutToggle,
@@ -4078,7 +4083,6 @@ class Ui_MainWindow(object):
                         settingsPath = os.path.join(dataLocation, 'data/Settings.json')
                         with open(settingsPath) as f:
                                 currentSettings = json.load(f)
-                        addMacro('Air Dash M1 Movestack', self.AirDashToggle, threadedkeyb.AirListener)
                         addMacro('Faster Hold M1', self.HoldM1Toggle, holdm1.M1Listener, keyToPress=self.HoldM1Key.toPlainText())
                         if self.BellMovestackToggle._is_checked == 2:
                                 if self.MovestackChoice.currentIndex() == 1:     
@@ -4267,7 +4271,6 @@ class Ui_MainWindow(object):
 
                 #!weapons
 
-                saveMacro(currentData, 'AirDashToggle')
                 saveMacro(currentData, 'HoldM1Toggle')
                 saveMacro(currentData, 'MotifSwapToggle', params=['MotifHotkeyArea', 'MotifToolbarNumberArea', 'MotifWeaponNumberArea'], elements=['MotifHotkeyArea', 'MotifToolbarNumberArea', 'plainTextEdit_7'])
                 saveMacro(currentData, 'uppercutToggle')
@@ -4395,7 +4398,6 @@ class Ui_MainWindow(object):
                 #!weapons
 
                 loadMacro(savedData, 'HoldM1Toggle')
-                loadMacro(savedData, 'AirDashToggle')
                 loadMacro(savedData, 'uppercutDynamicToggle')
                 loadMacro(savedData, 'rollUppercutToggle')
                 loadMacro(savedData, 'uppercutToggle')
