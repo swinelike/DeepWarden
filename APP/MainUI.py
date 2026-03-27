@@ -18,29 +18,6 @@ from PySide6.QtWidgets import (QComboBox, QFrame, QGridLayout, QHBoxLayout,
 
         # start QtDesigner UI code
 
-# -*- coding: utf-8 -*-
-
-################################################################################
-## Form generated from reading UI file 'DeepMacroZTbqhU.ui'
-##
-## Created by: Qt User Interface Compiler version 6.10.1
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
-
-from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-    QMetaObject, QObject, QPoint, QRect,
-    QSize, QTime, QUrl, Qt)
-from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-    QFont, QFontDatabase, QGradient, QIcon,
-    QImage, QKeySequence, QLinearGradient, QPainter,
-    QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QGridLayout,
-    QHBoxLayout, QLabel, QLineEdit, QMainWindow,
-    QPlainTextEdit, QPushButton, QScrollArea, QSizePolicy,
-    QSpacerItem, QStackedWidget, QWidget)
-import assets_rc
-
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
@@ -2197,6 +2174,10 @@ class Ui_MainWindow(object):
         self.settingsPage.setObjectName(u"settingsPage")
         self.gridLayout_7 = QGridLayout(self.settingsPage)
         self.gridLayout_7.setObjectName(u"gridLayout_7")
+        self.verticalSpacer_4 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+
+        self.gridLayout_7.addItem(self.verticalSpacer_4, 7, 0, 1, 1)
+
         self.themeComboBox = QComboBox(self.settingsPage)
         self.themeComboBox.addItem("")
         self.themeComboBox.addItem("")
@@ -2204,10 +2185,12 @@ class Ui_MainWindow(object):
 
         self.gridLayout_7.addWidget(self.themeComboBox, 2, 1, 1, 1)
 
-        self.themeLabel = QLabel(self.settingsPage)
-        self.themeLabel.setObjectName(u"themeLabel")
+        self.label_64 = QLabel(self.settingsPage)
+        self.label_64.setObjectName(u"label_64")
+        self.label_64.setStyleSheet(u"color:grey;")
+        self.label_64.setWordWrap(True)
 
-        self.gridLayout_7.addWidget(self.themeLabel, 2, 0, 1, 1)
+        self.gridLayout_7.addWidget(self.label_64, 5, 0, 1, 2)
 
         self.label_41 = QLabel(self.settingsPage)
         self.label_41.setObjectName(u"label_41")
@@ -2216,6 +2199,16 @@ class Ui_MainWindow(object):
         self.label_41.setWordWrap(True)
 
         self.gridLayout_7.addWidget(self.label_41, 1, 0, 1, 2)
+
+        self.autoSprintLabel = QLabel(self.settingsPage)
+        self.autoSprintLabel.setObjectName(u"autoSprintLabel")
+
+        self.gridLayout_7.addWidget(self.autoSprintLabel, 4, 0, 1, 1)
+
+        self.themeLabel = QLabel(self.settingsPage)
+        self.themeLabel.setObjectName(u"themeLabel")
+
+        self.gridLayout_7.addWidget(self.themeLabel, 2, 0, 1, 1)
 
         self.label_45 = QLabel(self.settingsPage)
         self.label_45.setObjectName(u"label_45")
@@ -2229,21 +2222,15 @@ class Ui_MainWindow(object):
 
         self.gridLayout_7.addWidget(self.toggleNotifsLabel, 0, 0, 1, 1)
 
-        self.verticalSpacer_4 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.label_11 = QLabel(self.settingsPage)
+        self.label_11.setObjectName(u"label_11")
 
-        self.gridLayout_7.addItem(self.verticalSpacer_4, 6, 0, 1, 1)
+        self.gridLayout_7.addWidget(self.label_11, 6, 0, 1, 1)
 
-        self.autoSprintLabel = QLabel(self.settingsPage)
-        self.autoSprintLabel.setObjectName(u"autoSprintLabel")
+        self.versionLabel = QLabel(self.settingsPage)
+        self.versionLabel.setObjectName(u"versionLabel")
 
-        self.gridLayout_7.addWidget(self.autoSprintLabel, 4, 0, 1, 1)
-
-        self.label_64 = QLabel(self.settingsPage)
-        self.label_64.setObjectName(u"label_64")
-        self.label_64.setStyleSheet(u"color:grey;")
-        self.label_64.setWordWrap(True)
-
-        self.gridLayout_7.addWidget(self.label_64, 5, 0, 1, 2)
+        self.gridLayout_7.addWidget(self.versionLabel, 6, 1, 1, 1, Qt.AlignmentFlag.AlignRight)
 
         self.stackedWidget.addWidget(self.settingsPage)
         self.chatPage = QWidget()
@@ -3547,12 +3534,14 @@ class Ui_MainWindow(object):
         self.themeComboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"Dark", None))
         self.themeComboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"Navy Blue", None))
 
-        self.themeLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Theme</span></p></body></html>", None))
+        self.label_64.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Automatically starts sprinting after either Golden Tongue or Custom Chat Hotkey is used</span></p></body></html>", None))
         self.label_41.setText(QCoreApplication.translate("MainWindow", u"When something togglable is used, such as \"Toggle Activate Macros\", a small popup will be activated in the bottom right of the screen", None))
+        self.autoSprintLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Sprint</span></p></body></html>", None))
+        self.themeLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Theme</span></p></body></html>", None))
         self.label_45.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Changes the theme of the application</p></body></html>", None))
         self.toggleNotifsLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Toggle Notifications</span></p></body></html>", None))
-        self.autoSprintLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Sprint</span></p></body></html>", None))
-        self.label_64.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Automatically starts sprinting after either Golden Tongue or Custom Chat Hotkey is used</span></p></body></html>", None))
+        self.label_11.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Current Version</span></p></body></html>", None))
+        self.versionLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:14pt;\">v0.0.0</span></p></body></html>", None))
         self.label_63.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
         self.TrashTalkHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to trash talk", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Automatically opens the chat and types whatever you want when you press a hotkey", None))
@@ -4086,7 +4075,7 @@ class Ui_MainWindow(object):
                         addMacro('Faster Hold M1', self.HoldM1Toggle, holdm1.M1Listener, keyToPress=self.HoldM1Key.toPlainText())
                         if self.BellMovestackToggle._is_checked == 2:
                                 if self.MovestackChoice.currentIndex() == 1:     
-                                        addMacro('Bell Stack Parry', self.BellMovestackToggle, bellStackParry.BellStackParryListener) # Either a logic error or i need to fix some jank on this one
+                                        addMacro('Bell Stack Parry', self.BellMovestackToggle, bellStackParry.BellStackParryListener)
                                 elif self.MovestackChoice.currentIndex() == 0:
                                         addMacro('Bell Stack Dodge', self.BellMovestackToggle, bellStackDodge.BellStackDodgeListener)
                         addMacro('Mantra Roll Tech', self.mantraTechRollToggle, mantraTechRoll.MantraRollTechListener, keybinds=self.plainTextEdit_3.toPlainText())
@@ -4366,7 +4355,7 @@ class Ui_MainWindow(object):
                                                 try:
                                                         nameOfElement = elementName[i]
                                                         dataOfElement = elementData[i] # location of element data in json
-                                                except:
+                                                except Exception:
                                                         print('macro fields not filled out properly')
                                                 element = getattr(self, nameOfElement)
                                                 element.setPlainText(str(savedData[dataOfElement]))
@@ -4542,3 +4531,7 @@ class Ui_MainWindow(object):
         self.Preset8EditName.clicked.connect(lambda:NameEditor(8))
         self.Preset9EditName.clicked.connect(lambda:NameEditor(9))
         self.Preset10EditName.clicked.connect(lambda:NameEditor(10))
+
+
+        #! version indicator
+        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:14pt;\">v3.3.1</span></p></body></html>')
