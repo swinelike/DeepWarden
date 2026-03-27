@@ -294,7 +294,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 657, 954))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 615, 954))
         self.gridLayout_19 = QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_19.setObjectName(u"gridLayout_19")
         self.label_84 = QLabel(self.scrollAreaWidgetContents_3)
@@ -2176,29 +2176,25 @@ class Ui_MainWindow(object):
         self.gridLayout_7.setObjectName(u"gridLayout_7")
         self.verticalSpacer_4 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
 
-        self.gridLayout_7.addItem(self.verticalSpacer_4, 7, 0, 1, 1)
+        self.gridLayout_7.addItem(self.verticalSpacer_4, 8, 0, 1, 1)
 
-        self.themeComboBox = QComboBox(self.settingsPage)
-        self.themeComboBox.addItem("")
-        self.themeComboBox.addItem("")
-        self.themeComboBox.setObjectName(u"themeComboBox")
+        self.label_74 = QLabel(self.settingsPage)
+        self.label_74.setObjectName(u"label_74")
+        self.label_74.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_7.addWidget(self.themeComboBox, 2, 1, 1, 1)
+        self.gridLayout_7.addWidget(self.label_74, 7, 0, 1, 1)
 
-        self.label_64 = QLabel(self.settingsPage)
-        self.label_64.setObjectName(u"label_64")
-        self.label_64.setStyleSheet(u"color:grey;")
-        self.label_64.setWordWrap(True)
+        self.label_45 = QLabel(self.settingsPage)
+        self.label_45.setObjectName(u"label_45")
+        self.label_45.setFont(font)
+        self.label_45.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_7.addWidget(self.label_64, 5, 0, 1, 2)
+        self.gridLayout_7.addWidget(self.label_45, 3, 0, 1, 2)
 
-        self.label_41 = QLabel(self.settingsPage)
-        self.label_41.setObjectName(u"label_41")
-        self.label_41.setFont(font)
-        self.label_41.setStyleSheet(u"color:grey;")
-        self.label_41.setWordWrap(True)
+        self.versionLabel = QLabel(self.settingsPage)
+        self.versionLabel.setObjectName(u"versionLabel")
 
-        self.gridLayout_7.addWidget(self.label_41, 1, 0, 1, 2)
+        self.gridLayout_7.addWidget(self.versionLabel, 6, 1, 1, 1, Qt.AlignmentFlag.AlignRight)
 
         self.autoSprintLabel = QLabel(self.settingsPage)
         self.autoSprintLabel.setObjectName(u"autoSprintLabel")
@@ -2210,27 +2206,37 @@ class Ui_MainWindow(object):
 
         self.gridLayout_7.addWidget(self.themeLabel, 2, 0, 1, 1)
 
-        self.label_45 = QLabel(self.settingsPage)
-        self.label_45.setObjectName(u"label_45")
-        self.label_45.setFont(font)
-        self.label_45.setStyleSheet(u"color:grey;")
-
-        self.gridLayout_7.addWidget(self.label_45, 3, 0, 1, 2)
-
         self.toggleNotifsLabel = QLabel(self.settingsPage)
         self.toggleNotifsLabel.setObjectName(u"toggleNotifsLabel")
 
         self.gridLayout_7.addWidget(self.toggleNotifsLabel, 0, 0, 1, 1)
+
+        self.label_41 = QLabel(self.settingsPage)
+        self.label_41.setObjectName(u"label_41")
+        self.label_41.setFont(font)
+        self.label_41.setStyleSheet(u"color:grey;")
+        self.label_41.setWordWrap(True)
+
+        self.gridLayout_7.addWidget(self.label_41, 1, 0, 1, 2)
+
+        self.themeComboBox = QComboBox(self.settingsPage)
+        self.themeComboBox.addItem("")
+        self.themeComboBox.addItem("")
+        self.themeComboBox.setObjectName(u"themeComboBox")
+
+        self.gridLayout_7.addWidget(self.themeComboBox, 2, 1, 1, 1)
 
         self.label_11 = QLabel(self.settingsPage)
         self.label_11.setObjectName(u"label_11")
 
         self.gridLayout_7.addWidget(self.label_11, 6, 0, 1, 1)
 
-        self.versionLabel = QLabel(self.settingsPage)
-        self.versionLabel.setObjectName(u"versionLabel")
+        self.label_64 = QLabel(self.settingsPage)
+        self.label_64.setObjectName(u"label_64")
+        self.label_64.setStyleSheet(u"color:grey;")
+        self.label_64.setWordWrap(True)
 
-        self.gridLayout_7.addWidget(self.versionLabel, 6, 1, 1, 1, Qt.AlignmentFlag.AlignRight)
+        self.gridLayout_7.addWidget(self.label_64, 5, 0, 1, 2)
 
         self.stackedWidget.addWidget(self.settingsPage)
         self.chatPage = QWidget()
@@ -3531,17 +3537,18 @@ class Ui_MainWindow(object):
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Activate Macros</span></p></body></html>", None))
         self.label_42.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Activate Macros Hotkey</span></p></body></html>", None))
         self.label_37.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Keybind to toggle the macros </span></p></body></html>", None))
+        self.label_74.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">The current version of DeepWarden</span></p></body></html>", None))
+        self.label_45.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Changes the theme of the application</p></body></html>", None))
+        self.versionLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">v0.0.0</span></p></body></html>", None))
+        self.autoSprintLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Sprint</span></p></body></html>", None))
+        self.themeLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Theme</span></p></body></html>", None))
+        self.toggleNotifsLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Toggle Notifications</span></p></body></html>", None))
+        self.label_41.setText(QCoreApplication.translate("MainWindow", u"When something togglable is used, such as \"Toggle Activate Macros\", a small popup will be activated in the bottom right of the screen", None))
         self.themeComboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"Dark", None))
         self.themeComboBox.setItemText(1, QCoreApplication.translate("MainWindow", u"Navy Blue", None))
 
+        self.label_11.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Version</span></p></body></html>", None))
         self.label_64.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Automatically starts sprinting after either Golden Tongue or Custom Chat Hotkey is used</span></p></body></html>", None))
-        self.label_41.setText(QCoreApplication.translate("MainWindow", u"When something togglable is used, such as \"Toggle Activate Macros\", a small popup will be activated in the bottom right of the screen", None))
-        self.autoSprintLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Sprint</span></p></body></html>", None))
-        self.themeLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Theme</span></p></body></html>", None))
-        self.label_45.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>Changes the theme of the application</p></body></html>", None))
-        self.toggleNotifsLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Toggle Notifications</span></p></body></html>", None))
-        self.label_11.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Current Version</span></p></body></html>", None))
-        self.versionLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:14pt;\">v0.0.0</span></p></body></html>", None))
         self.label_63.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
         self.TrashTalkHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to trash talk", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Automatically opens the chat and types whatever you want when you press a hotkey", None))
@@ -3674,7 +3681,7 @@ class Ui_MainWindow(object):
         print('importing macros')
         from macros.rolling import rollCrit, rollM1, rollParry
         from macros.training import autocharisma, autofortitude, autoagility, autowillpower
-        from macros import threadedkeyb, holdm1, autovariants, mball, goldentongue, motifswap, gankpinger, flashmap, autofeint, autoritualcast, autotacet, autotrashtalk, autolog, autoeat, uppercutAssassinate, autobuy, autodropnotes, autosell, autorollcancel
+        from macros import holdm1, autovariants, mball, goldentongue, motifswap, gankpinger, flashmap, autofeint, autoritualcast, autotacet, autotrashtalk, autolog, autoeat, uppercutAssassinate, autobuy, autodropnotes, autosell, autorollcancel
         from macros.bellStack import bellStackParry, bellStackDodge
         from macros.mantraTech import mantraTechRoll, mantraTechSlide
         from macros.uppercuts import autoUppercutAlways, autoUppercutDYNAMIC
@@ -4534,4 +4541,4 @@ class Ui_MainWindow(object):
 
 
         #! version indicator
-        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:14pt;\">v3.3.1</span></p></body></html>')
+        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:18pt; color:ivory;\">v3.3.1</span></p></body></html>')
