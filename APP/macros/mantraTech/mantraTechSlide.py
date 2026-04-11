@@ -14,17 +14,12 @@ class MantraSlideTechListener:
         allKeys = str(keybinds).split(',')
         allKeys = ''.join(allKeys)
         self.isRunning = False
-        self.lastPress = 0
+        self.lastPress = -1
         def wPressed(event):
             print('pressed')
-            self.isPressed = True
             if time.time() - self.lastPress <= 0.5:
                 self.isRunning = True
             self.lastPress = time.time()
-
-        def wReleased(event):
-            print('released')
-            self.isPressed = False
             
 
         def on_key(event):
