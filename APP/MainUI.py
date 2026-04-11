@@ -4057,7 +4057,6 @@ class Ui_MainWindow(object):
                 def addMacro(name:str, toggle, listener_class, **run_kwargs):
                         if toggle._is_checked != 2:
                                return
-                        print(run_kwargs)
                         exceptions = ['ping_ms', 'keyToPress', 'avatar_url', 'username']
                         for field, value in run_kwargs.items():
                                if type(value) is str:
