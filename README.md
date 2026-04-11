@@ -19,7 +19,6 @@ DeepWarden currently lets you automatically:
 - Flash map (hold M open map, release M close map)
 - Hold M1 to keep M1ing
 - Log/Leave the server
-- Movestack Aerial M1 and Air Dash
 - Movestack bell with dodge/parry
 - Progress agility
 - Progress charisma
