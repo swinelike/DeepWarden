@@ -24,7 +24,6 @@ class DynamicUppercutListener:
             if self.last_press_time == 0:  # First press
                 self.last_press_time = current_time
             else:  # Second press
-                # Check if this press happened within 0.65s of the first press
                 if (current_time - self.last_press_time) < 0.65 and self.last_release_time > self.last_press_time:
                     self.is_player_running = True
                 self.last_press_time = current_time
@@ -33,11 +32,9 @@ class DynamicUppercutListener:
         elif event.event_type == 'up':
             self.w_held = False
             self.last_release_time = current_time
-            # When W is released, immediately check if we should stop running
             if self.is_player_running:
-                # Add a cooldown period after stopping running
                 self.is_player_running = False
-                self.last_press_time = 0  # Reset for next sequence
+                self.last_press_time = 0  
 
     def on_key(self, event):
         if event.name == 'w':
