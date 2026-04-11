@@ -7,14 +7,22 @@ class rollParryListener:
         self.running = False
         self.thread = None
         self.hotkey = None
+        self.onRelease = None
 
     def stack(self, keybind):
+        self.alreadyPressed = False
 
+        def rollParry(event):
+            if not self.alreadyPressed:
+                self.alreadyPressed = True
+                keyboard.press_and_release('f')
+                keyboard.press_and_release('q')
 
-        def rollParry(self):
-            keyboard.press_and_release('f')
-            keyboard.press_and_release('q')
+        def onReleaseKey(event):
+            self.alreadyPressed = False
+        
         self.hotkey = keyboard.on_press_key(keybind, rollParry)
+        self.onRelease = keyboard.on_release_key(keybind, onReleaseKey)
 
         
 
@@ -33,6 +41,7 @@ class rollParryListener:
         self.running = False
         if self.hotkey is not None:
             keyboard.unhook(self.hotkey)
+            keyboard.unhook(self.onRelease)
         if self.thread and self.thread.is_alive():
             self.thread.join(timeout=1.0)  # Wait up to 1 second for the thread to stop
             if self.thread.is_alive():
