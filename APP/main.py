@@ -10,22 +10,8 @@ import os
 import ctypes
 from setup import Setup
 from PySide6.QtCore import QRect, Qt, QEvent, QStandardPaths
-from ctypes import windll, c_int, byref, sizeof
-from ctypes.wintypes import BOOL
 import json
 Setup()
-def enable_dark_title_bar(window):
-    if os.name == 'nt':  # Windows only
-        DWMWA_USE_IMMERSIVE_DARK_MODE = 20
-        set_window_attribute = windll.dwmapi.DwmSetWindowAttribute
-        hwnd = window.winId()
-        rendering_policy = BOOL(True)
-        set_window_attribute(
-            c_int(hwnd), 
-            DWMWA_USE_IMMERSIVE_DARK_MODE,
-            byref(rendering_policy),
-            sizeof(rendering_policy)
-        )
 
 def set_dark_theme(app):
     app.setStyle(QStyleFactory.create('Fusion'))
@@ -127,7 +113,6 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        enable_dark_title_bar(self)
         self.setWindowTitle('DeepWarden')
         
         # Set the window icon
@@ -184,14 +169,13 @@ class MainWindow(QMainWindow):
             elif settings['theme'] == 'navy':
                 self.ui.themeComboBox.setCurrentIndex(1)
 
-        # Modify all QPlainTextEdit widgets
+        # Adjust all QPlainTextEdit widgets
         for widget in self.findChildren(QPlainTextEdit):
             widget.installEventFilter(self)
             widget.setLineWrapMode(QPlainTextEdit.NoWrap)
             widget.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
             widget.setContextMenuPolicy(Qt.NoContextMenu)
 
-        # Install event filter for focus clearing
         self.installEventFilter(self)
 
     def eventFilter(self, obj, event):
