@@ -6,6 +6,8 @@ DeepMacro.ui
 nuitka-crash-report.xml
 .vscode
 
+# in dev
+APP\macros\uppercuts\autoUppercutDYNAMIC_new.py
 #compiled app should not be inside the app's source code
 *.spec
 build/
