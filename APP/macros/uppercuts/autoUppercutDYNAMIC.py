@@ -15,6 +15,7 @@ class DynamicUppercutListener:
         self.hooks = []
 
     def check_running_state(self, event):
+        
         if event.name != 'w':
             return
         
@@ -23,10 +24,11 @@ class DynamicUppercutListener:
         if event.event_type == 'down':
             if self.last_press_time == 0:  # First press
                 self.last_press_time = current_time
-            else:  # Second press
-                if (current_time - self.last_press_time) < 0.6 and self.last_release_time > self.last_press_time:
+            else:  
+                if 0.05 < (current_time - self.last_press_time) < 0.6 and self.last_release_time > self.last_press_time:
                     self.is_player_running = True
-                self.last_press_time = current_time
+                if not self.w_held:
+                    self.last_press_time = current_time
             self.w_held = True
             
         elif event.event_type == 'up':
