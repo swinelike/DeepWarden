@@ -294,7 +294,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 615, 954))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 657, 954))
         self.gridLayout_19 = QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_19.setObjectName(u"gridLayout_19")
         self.label_84 = QLabel(self.scrollAreaWidgetContents_3)
@@ -532,7 +532,7 @@ class Ui_MainWindow(object):
         self.scrollArea_5.setWidgetResizable(True)
         self.scrollAreaWidgetContents_6 = QWidget()
         self.scrollAreaWidgetContents_6.setObjectName(u"scrollAreaWidgetContents_6")
-        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 562, 1364))
+        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 657, 1348))
         self.gridLayout_21 = QGridLayout(self.scrollAreaWidgetContents_6)
         self.gridLayout_21.setObjectName(u"gridLayout_21")
         self.label_117 = QLabel(self.scrollAreaWidgetContents_6)
@@ -891,7 +891,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 495, 705))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 639, 705))
         self.scrollAreaWidgetContents_2.setMaximumSize(QSize(16777215, 16777212))
         self.gridLayout_17 = QGridLayout(self.scrollAreaWidgetContents_2)
         self.gridLayout_17.setObjectName(u"gridLayout_17")
@@ -3288,12 +3288,6 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout.addWidget(self.lineEdit)
 
-        self.label_73 = QLabel(self.contacts_frame)
-        self.label_73.setObjectName(u"label_73")
-        self.label_73.setOpenExternalLinks(True)
-
-        self.horizontalLayout.addWidget(self.label_73)
-
         self.horizontalSpacer_13 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
 
         self.horizontalLayout.addItem(self.horizontalSpacer_13)
@@ -3671,10 +3665,9 @@ class Ui_MainWindow(object):
         self.weaponsButton.setText("")
         self.silentheartButton.setText("")
         self.miscButton.setText("")
-        self.label_144.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">For new versions: </span><a href=\"https://github.com/swinelike/DeepWarden\"><span style=\" font-size:10pt; text-decoration: underline; color:#99ebff;\">https://github.com/swinelike/DeepWarden</span></a></p></body></html>", None))
-        self.label_143.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">For support, DM me:</span></p></body></html>", None))
+        self.label_144.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">For new versions and support, join: </span><a href=\"https://discord.com/invite/Wg5ccj6vE6\"><span style=\" text-decoration: underline; color:#99ebff;\">https://discord.com/invite/Wg5ccj6vE6</span></a></p></body></html>", None))
+        self.label_143.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">For private inquiries, DM me:</span></p></body></html>", None))
         self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"pigyboi", None))
-        self.label_73.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:10pt; color:#808080;\">or join </span><a href=\"https://discord.com/invite/Wg5ccj6vE6\"><span style=\" font-size:10pt; text-decoration: underline; color:#99ebff;\">this discord server</span></a></p></body></html>", None))
 
         # end QtDesigner UI code
 
@@ -4540,4 +4533,4 @@ class Ui_MainWindow(object):
 
 
         #! version indicator
-        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:18pt; color:ivory;\">v3.3.1</span></p></body></html>')
+        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:18pt; color:ivory;\">v3.3.2</span></p></body></html>')
